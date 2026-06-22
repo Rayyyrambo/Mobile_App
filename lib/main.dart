@@ -171,6 +171,12 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 80),
+              ElevatedButton(
+                onPressed: () {},
+                child: Text("Tombol"),
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
+              ),
+              SizedBox(height: 34),
               Container(
                 color: Colors.blue[600],
                 padding: EdgeInsets.only(top: 15, bottom: 15),
@@ -205,12 +211,8 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: () {},
-                child: Text("Tombol"),
-                style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
-              ),
+              
+              
             ],
           ),
         ),
